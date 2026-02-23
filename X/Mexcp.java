@@ -8,6 +8,8 @@ class Mexcp {
         } catch (IllegalArgumentException e) {
             System.out.println("IllegalArgumentException caught");
         }
+        System.out.println(System.getProperty("java.class.path"));
+
 
         s = null;
 
