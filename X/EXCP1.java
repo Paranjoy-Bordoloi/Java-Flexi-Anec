@@ -1,12 +1,12 @@
 
-class InvalidAgeException extends Exception {
+class InvalidAgeException extends RuntimeException {
     public InvalidAgeException(String m) {
         super(m);
     }
 }
 
 public class EXCP1 {
-    public static void validate(int age) throws InvalidAgeException {
+    public static void validate(int age){
         if (age < 18) {
             throw new InvalidAgeException("Age must be 18 or above.");
         }
