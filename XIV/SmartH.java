@@ -1,3 +1,4 @@
+package XIV;
 abstract class device{
     String brand;
     public device(String brand){

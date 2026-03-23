@@ -1,3 +1,4 @@
+package XIV;
 abstract class Payment{
     private String transactionid;
     private double amount;
